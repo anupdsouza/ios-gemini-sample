@@ -12,6 +12,8 @@
 		E46471D62B2BF14A001F3009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46471D52B2BF14A001F3009 /* Assets.xcassets */; };
 		E46471D92B2BF14A001F3009 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46471D82B2BF14A001F3009 /* Preview Assets.xcassets */; };
 		E46471E12B2BF1B4001F3009 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = E46471E02B2BF1B4001F3009 /* GoogleGenerativeAI */; };
+		E46471E32B2BFBCD001F3009 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E46471E22B2BFBCD001F3009 /* GenerativeAI-Info.plist */; };
+		E46471E52B2BFCEE001F3009 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46471E42B2BFCEE001F3009 /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E46471D32B2BF147001F3009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E46471D52B2BF14A001F3009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E46471D82B2BF14A001F3009 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E46471E22B2BFBCD001F3009 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		E46471E42B2BFCEE001F3009 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				E46471D12B2BF147001F3009 /* GeminiChatApp.swift */,
 				E46471D32B2BF147001F3009 /* ContentView.swift */,
+				E46471E42B2BFCEE001F3009 /* APIKey.swift */,
+				E46471E22B2BFBCD001F3009 /* GenerativeAI-Info.plist */,
 				E46471D52B2BF14A001F3009 /* Assets.xcassets */,
 				E46471D72B2BF14A001F3009 /* Preview Content */,
 			);
@@ -135,6 +141,7 @@
 			files = (
 				E46471D92B2BF14A001F3009 /* Preview Assets.xcassets in Resources */,
 				E46471D62B2BF14A001F3009 /* Assets.xcassets in Resources */,
+				E46471E32B2BFBCD001F3009 /* GenerativeAI-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E46471D42B2BF147001F3009 /* ContentView.swift in Sources */,
+				E46471E52B2BFCEE001F3009 /* APIKey.swift in Sources */,
 				E46471D22B2BF147001F3009 /* GeminiChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
