@@ -13,7 +13,6 @@ struct ContentView: View {
     let model = GenerativeModel(name: "gemini-pro", apiKey: APIKey.default)
     @State var textInput = ""
     @State var aiResponse = "Hello! How can I help you today?"
-    @State var loadingResponse = false
     @State var logoAnimating = false
     @State private var timer: Timer?
 
@@ -61,16 +60,23 @@ struct ContentView: View {
         startLoadingAnimation()
         
         Task {
-            let response = try await model.generateContent(textInput)
-            
-            stopLoadingAnimation()
-            
-            guard let text = response.text else  {
-                textInput = "Sorry, I could not process that.\nPlease try again."
-                return
+            do {
+                let response = try await model.generateContent(textInput)
+                
+                stopLoadingAnimation()
+                
+                guard let text = response.text else  {
+                    textInput = "Sorry, I could not process that.\nPlease try again."
+                    return
+                }
+                
+                textInput = ""
+                aiResponse = text
+                
+            } catch {
+                stopLoadingAnimation()
+                aiResponse = "Something went wrong!\n\(error.localizedDescription)"
             }
-            textInput = ""
-            aiResponse = text
         }
     }
     
