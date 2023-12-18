@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A13418AC-66D7-4637-BDD1-C5ED047C81E9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4A68209-60A8-4DDA-85A2-1C3831F535BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GeminiChat/ChatService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "sendMessage(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D4A68209-60A8-4DDA-85A2-1C3831F535BC - 3fc9c12a1bffa460"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GeminiChat.ChatService.sendMessage(Swift.String) -&gt; ()"
+                  moduleName = "GeminiChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adso0001/Development/iOS/learning/Github/ios-gemini-sample/GeminiChat/GeminiChat/ChatService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "718">
+               </Location>
+               <Location
+                  uuid = "D4A68209-60A8-4DDA-85A2-1C3831F535BC - 3ce6fddec1d2b149"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable () async -&gt; () in GeminiChat.ChatService.sendMessage(Swift.String) -&gt; ()"
+                  moduleName = "GeminiChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adso0001/Development/iOS/learning/Github/ios-gemini-sample/GeminiChat/GeminiChat/ChatService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "145">
+               </Location>
+               <Location
+                  uuid = "D4A68209-60A8-4DDA-85A2-1C3831F535BC - b9c3f3215e814ed6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in GeminiChat.ChatService.sendMessage(Swift.String) -&gt; ()"
+                  moduleName = "GeminiChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adso0001/Development/iOS/learning/Github/ios-gemini-sample/GeminiChat/GeminiChat/ChatService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "191">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

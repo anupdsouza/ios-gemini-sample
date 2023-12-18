@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SimpleChatView.swift
 //  GeminiChat
 //
 //  Created by Anup D'Souza on 15/12/23.
@@ -9,7 +9,7 @@ import SwiftUI
 import Combine
 import GoogleGenerativeAI
 
-struct ContentView: View {
+struct SimpleChatView: View {
     let model = GenerativeModel(name: "gemini-pro", apiKey: APIKey.default)
     @State var textInput = ""
     @State var aiResponse = "Hello! How can I help you today?"
@@ -95,5 +95,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    SimpleChatView()
 }

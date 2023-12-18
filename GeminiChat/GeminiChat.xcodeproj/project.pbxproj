@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E421262E2B3045CC00B5D1E6 /* ChatBubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421262D2B3045CC00B5D1E6 /* ChatBubbleShape.swift */; };
+		E42126302B3045F000B5D1E6 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E421262F2B3045F000B5D1E6 /* ChatBubble.swift */; };
 		E46471D22B2BF147001F3009 /* GeminiChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46471D12B2BF147001F3009 /* GeminiChatApp.swift */; };
-		E46471D42B2BF147001F3009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46471D32B2BF147001F3009 /* ContentView.swift */; };
+		E46471D42B2BF147001F3009 /* SimpleChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46471D32B2BF147001F3009 /* SimpleChatView.swift */; };
 		E46471D62B2BF14A001F3009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46471D52B2BF14A001F3009 /* Assets.xcassets */; };
 		E46471D92B2BF14A001F3009 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46471D82B2BF14A001F3009 /* Preview Assets.xcassets */; };
 		E46471E12B2BF1B4001F3009 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = E46471E02B2BF1B4001F3009 /* GoogleGenerativeAI */; };
 		E46471E32B2BFBCD001F3009 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E46471E22B2BFBCD001F3009 /* GenerativeAI-Info.plist */; };
 		E46471E52B2BFCEE001F3009 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46471E42B2BFCEE001F3009 /* APIKey.swift */; };
+		E4B382452B2D69450071FD02 /* MultiturnChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B382442B2D69450071FD02 /* MultiturnChatView.swift */; };
+		E4B382472B2D6D8C0071FD02 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B382462B2D6D8C0071FD02 /* ChatService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E421262D2B3045CC00B5D1E6 /* ChatBubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleShape.swift; sourceTree = "<group>"; };
+		E421262F2B3045F000B5D1E6 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 		E46471CE2B2BF147001F3009 /* GeminiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeminiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46471D12B2BF147001F3009 /* GeminiChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiChatApp.swift; sourceTree = "<group>"; };
-		E46471D32B2BF147001F3009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E46471D32B2BF147001F3009 /* SimpleChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleChatView.swift; sourceTree = "<group>"; };
 		E46471D52B2BF14A001F3009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E46471D82B2BF14A001F3009 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E46471E22B2BFBCD001F3009 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
 		E46471E42B2BFCEE001F3009 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		E4B382442B2D69450071FD02 /* MultiturnChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiturnChatView.swift; sourceTree = "<group>"; };
+		E4B382462B2D6D8C0071FD02 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E42126312B304A5F00B5D1E6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E46471E42B2BFCEE001F3009 /* APIKey.swift */,
+				E46471E22B2BFBCD001F3009 /* GenerativeAI-Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E42126322B304A6700B5D1E6 /* SimpleChat */ = {
+			isa = PBXGroup;
+			children = (
+				E46471D32B2BF147001F3009 /* SimpleChatView.swift */,
+			);
+			path = SimpleChat;
+			sourceTree = "<group>";
+		};
+		E42126332B304A7200B5D1E6 /* MultiturnChat */ = {
+			isa = PBXGroup;
+			children = (
+				E4B382442B2D69450071FD02 /* MultiturnChatView.swift */,
+				E4B382462B2D6D8C0071FD02 /* ChatService.swift */,
+				E421262D2B3045CC00B5D1E6 /* ChatBubbleShape.swift */,
+				E421262F2B3045F000B5D1E6 /* ChatBubble.swift */,
+			);
+			path = MultiturnChat;
+			sourceTree = "<group>";
+		};
 		E46471C52B2BF147001F3009 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				E46471D12B2BF147001F3009 /* GeminiChatApp.swift */,
-				E46471D32B2BF147001F3009 /* ContentView.swift */,
-				E46471E42B2BFCEE001F3009 /* APIKey.swift */,
-				E46471E22B2BFBCD001F3009 /* GenerativeAI-Info.plist */,
+				E42126322B304A6700B5D1E6 /* SimpleChat */,
+				E42126332B304A7200B5D1E6 /* MultiturnChat */,
+				E42126312B304A5F00B5D1E6 /* Config */,
 				E46471D52B2BF14A001F3009 /* Assets.xcassets */,
 				E46471D72B2BF14A001F3009 /* Preview Content */,
 			);
@@ -152,9 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E46471D42B2BF147001F3009 /* ContentView.swift in Sources */,
+				E46471D42B2BF147001F3009 /* SimpleChatView.swift in Sources */,
+				E421262E2B3045CC00B5D1E6 /* ChatBubbleShape.swift in Sources */,
 				E46471E52B2BFCEE001F3009 /* APIKey.swift in Sources */,
+				E4B382452B2D69450071FD02 /* MultiturnChatView.swift in Sources */,
+				E4B382472B2D6D8C0071FD02 /* ChatService.swift in Sources */,
 				E46471D22B2BF147001F3009 /* GeminiChatApp.swift in Sources */,
+				E42126302B3045F000B5D1E6 /* ChatBubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

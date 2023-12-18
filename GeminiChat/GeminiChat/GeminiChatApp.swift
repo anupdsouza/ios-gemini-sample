@@ -11,7 +11,7 @@ import SwiftUI
 struct GeminiChatApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MultiturnChatView()
         }
     }
 }
